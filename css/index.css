@@ -1,0 +1,426 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 2px 2px;
+}
+
+.top p{
+    margin-left: 130px;
+}
+
+.mainmenubtn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.mainmenubtn:hover {
+    background-color: black;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 1400px;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 100px;
+
+}
+.dropdown-child p {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.mainmenubtn2 {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.mainmenubtn2:hover {
+    background-color: black;
+    }
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    left:-30px ;
+}
+.dropdown-child2 {
+    display: none;
+    background-color: black;
+    min-width: 100px;
+
+}
+.dropdown-child2 p {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
+
+/*Fim Top*/
+
+/*Começo header*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #ffbF00;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    gap: 5px;
+}
+
+.logo-img{
+    width: 30px;
+    margin-left: 9px;
+}
+
+#front{
+    color: white;
+}
+
+.logo h1{
+    margin-right: -10px;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 900px;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/*Fim header*/
+
+/*Começo Banner*/
+
+.banner{
+    display: flex;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+.banner-content h1{
+    text-align: center;
+    color: #3C2313;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.banner-content p{
+    font-size: 25px;
+}
+
+.banner-btn{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: #fbbF0f;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+}
+/*Fim banner*/
+
+/*Começo Main*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.destaques{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.destaques > img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.destaques h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: #3C2313;
+}
+
+.quick-link{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.quick-link a{
+    color: #3C2313;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cards img{
+    width: 400px;
+    height: 400px;
+}
+
+.cards p{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    color: #3C2313;
+    font-size: 20px;
+}
+
+#price{
+    color: #fbbF0f;
+}
+
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.conteudo-contato-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 0 500px 25px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+.conteudo-contato-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #3C2313;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.conteudo-contato-input::placeholder{
+    margin-left: 290px;
+    margin-bottom: 10px;
+    background-color: #3C2313;
+    border-radius: 12px;
+    width: 500px;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+
+.conteudo-contato-input{
+    margin-left: 290px;
+    margin-bottom: 10px;
+    background-color: #3C2313;
+    border-radius: 12px;
+    width: 500px;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+.conteudo-contato-botoes {
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #3C2313;
+}
+
+.btn-cinza{
+    background-color: lightgrey;
+    border: none;
+}
+
+.btn-amarelo{
+    background-color: #fbbF0f;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(179, 128, 86, 0.53);
+}
+
+
+
+.conteudo-amarelo {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.conteudo-amarelo-email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.conteudo-amarelo-email img {
+    position: relative;
+    top: 10px;
+
+}
+
+input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.rodape {
+    width: 100%;
+}
+
+.rodape-marrom {
+    display: flex;
+    background-color: #3C2313;
+    height: 300px;
+    padding: 20px 150px;
+}
+
+.rodape-marrom h2{
+    display: flex;
+    color: white;
+}
+
+.rodape-marrom p{
+    display: flex;
+    color: gray;
+}
+
+.rodape-marrom-dados {
+    height: 66px;
+    width: 100%;
+}
+
+.rodape-marrom-dados-petshop {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape-marrom-dados-petshop-info {
+    font-family: 'Roboto'sans-serif;
+    color: #FFFFFF;
+}
+
+.rodape-marrom-dados-petshop-info {
+    position: relative;
+    left: 80px;
+    top: -70px;
+
+}
+
+.rodape-marrom-logo { 
+    padding-top: 150px;
+}
+
+.rodape-marrom-logo img { 
+    width: 350px;
+}
+
+.rodape-marrom-loc {
+    display: flex;
+}
+
+.rodape-preto {
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
